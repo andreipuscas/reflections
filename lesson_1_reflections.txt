@@ -1,0 +1,31 @@
+1) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Using an automated diff function can help you to spot spelling errors, which sometimes are difficult to spot with human eye.
+As an example, on the first exercise I did not noticed that on line 6, version 1 contained "!", while version 2 contained "1".
+
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+For example, you can see features which were no more used at a moment and they were removed.
+In this case, if they will be needed again at a moment, you can easily see them.
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
++
+There is no risk to commit a not-working version of a file.
+No risk to have too many commits.
+No risk to have unintended commits.
+-
+You may forget to commit from one day to another, and the versions automatically saved can help in these situations.
+For some reason, your local setup may crash and you may lose all the work for one day; with automatically saved versions, this risk is reduced.
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is designed to be used for a programming project, where a change may be reflected on multiple files (for example, if a new parameter will be added for a method, this should be added on all the places where that method is used).
+So, if they will be committed on separate commits, a build may crash between those two commits.
+In GDocs, there is a small ossibility that two files are related.
+
+5) How can you use the commands git log and git diff to view the history of files?
+git log - shows all the commits - take from there the IDs of the commits you want ot compare
+git diff ID1 ID2
+
+6) How might using version control make you more confident to make changes that could break something?
+It is due to the fact that it is possible to come back to a previous commit.
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+Daily work

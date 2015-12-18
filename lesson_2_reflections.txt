@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+The location where it is initialized is set to be the home directory for the project you intend to create.
+It is needed in order to have a central point where all the commits are stored.
