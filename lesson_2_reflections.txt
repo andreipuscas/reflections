@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 The location where it is initialized is set to be the home directory for the project you intend to create.
 It is needed in order to have a central point where all the commits are stored.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area contains the files added to be commited.
+Working directory can contain files which are not added into stagging area.
+The reporsitory is composed by commits.
